@@ -1,0 +1,24 @@
+bungeecord:
+  enabled: false
+  map: default
+
+commands:
+  enabled:
+    join: false
+    leave: false
+  join_arena:
+    - "/DoSomething"
+  leave_arena:
+    - "/DoSomething"
+
+border:
+  x: 100
+  z: 100
+
+messages:
+  kill:
+    a: "&e<player> &7was killed by &e<attacker>&7."
+    no_reason: "&e<player> &7died."
+  # make blank for none (so join: "")
+  join: "&e<player> &7joined &eKnockbackFFA&7."
+  leave: "&e<player> &7left &eKnockbackFFA&7."

@@ -1,0 +1,15 @@
+name: KnockbackFFA
+version: 1.0.1
+main: me.hi12167pies.kbffa.Main
+commands:
+  kbffa:
+    usage: /kbffa <join/leave> [map]
+    description: Join / Leave maps
+    aliases:
+      - knockbackffa
+  kbffamap:
+    usage: /kbffamap <create/delete/setvoid/settop> [map]
+    description: Create maps
+    permission: kbffa.map
+    aliases:
+      - knockbackffamap
